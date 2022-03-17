@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_fundamental/tutorial/custom_widget.dart';
 import 'package:flutter_fundamental/tutorial/gesture_detector.dart';
 
 void main() {
@@ -12,8 +13,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Fundamental',
-      theme: ThemeData(primarySwatch: Colors.cyan),
-      home: GestureDetect(),
+      theme: ThemeData(primarySwatch: Colors.blueGrey),
+      home: Calculator(),
     );
   }
 }
