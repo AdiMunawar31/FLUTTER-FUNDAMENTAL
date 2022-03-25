@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_fundamental/drawer.dart';
 import 'package:flutter_fundamental/tutorial/custom_widget.dart';
 import 'package:flutter_fundamental/tutorial/gesture_detector.dart';
 import 'package:flutter_fundamental/tutorial/learning_path_list.dart';
@@ -13,9 +14,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Fundamental',
       theme: ThemeData(primarySwatch: Colors.blueGrey),
-      home: LearningPathPage(),
+      home: Scaffold(
+        appBar: AppBar(title: Text('Flutter Fundamental')),
+        drawer: DrawerWidget(),
+        body: Center(
+            child: Text('Belajar Fundamental Flutter',
+                style: TextStyle(fontSize: 20))),
+      ),
     );
   }
 }
