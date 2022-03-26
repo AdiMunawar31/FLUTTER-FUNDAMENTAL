@@ -1,0 +1,10 @@
+{
+  "titleApp": "Dasar Flutter",
+  "@titleApp": {
+    "descriptioin": "Belajar Dasar Flutter"
+  },
+  "helloWorld": "Halo Dunia!",
+  "@helloWorld": {
+    "description": "Deskripsi variabel helloWorld"
+  }
+}

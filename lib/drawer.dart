@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_fundamental/tutorial/cupertino_app.dart';
 import 'package:flutter_fundamental/tutorial/custom_widget.dart';
 import 'package:flutter_fundamental/tutorial/gesture_detector.dart';
 import 'package:flutter_fundamental/tutorial/learning_path_list.dart';
